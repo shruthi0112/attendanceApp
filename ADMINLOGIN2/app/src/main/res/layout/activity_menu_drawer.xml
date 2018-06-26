@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/bg1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <group android:checkableBehaviour="single">
+        <item
+            android:id="@+id/iditem1"
+            android:title="DBMS-THEORY"/>
+        <item
+            android:id="@+id/iditem2"
+            android:title="CN-THEORY"/>
+        <item
+            android:id="@+id/iditem3"
+            android:title="SDL-TUT"/>
+        <item
+            android:id="@+id/iditem4"
+            android:title="IS_EE"/>
+        <item
+            android:id="@+id/iditem5"
+            android:title="SE_PM"/>
+        <item
+            android:id="@+id/iditem6"
+            android:title="TOC"/>
+
+    </group>
+    <item android:title="Section-2:LAB">
+        <menu>
+            <item
+
+                android:id="@+id/iditem7"
+                android:title="DBMS-LAB"/>
+            <item
+                android:id="@+id/iditem8"
+                android:title="CN-LAB"/>
+            <item
+                android:id="@+id/iditem9"
+                android:title="SD-LAB"/>
+        </menu>
+    </item>
+
+</menu>
